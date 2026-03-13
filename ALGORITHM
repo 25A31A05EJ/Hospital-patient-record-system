@@ -1,0 +1,37 @@
+Step 1: Start.
+
+Step 2: Define a structure patient with fields: id, name, age, gender, disease, doctor, and room number.
+
+Step 3: Display the menu with the following options:
+
+Add Patient Record
+
+View All Patients
+
+Search Patient by ID
+
+Delete Patient Record
+
+Exit
+
+Step 4: Read the user's choice.
+Step 5: If the choice is 1, enter patient details (ID, name, age, gender, disease, room number, doctor) and store them in the file patients.dat.
+
+Step 6: If the choice is 2, open the file patients.dat, read all patient records, and display them in tabular format.
+
+Step 7: If the choice is 3, ask the user to enter the patient ID to search.
+
+Step 8: Read each record from the file and compare the entered ID with stored patient IDs.
+
+Step 9: If the patient ID is found, display the patient details.
+
+Step 10: If the patient ID is not found, display "Patient not found".
+
+Step 11: If the choice is 4, ask the user to enter the patient ID to delete.
+Step 12: Copy all records except the matching ID into a temporary file, then replace the original file with the temporary file.
+
+Step 13: If the choice is 5, exit the program.
+
+Step 14: Repeat the menu until the user selects Exit.
+
+Step 15: Stop.
